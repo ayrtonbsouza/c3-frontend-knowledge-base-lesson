@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<Header />
+		<Header title="Knowledge Base" :hideToggle="false" />
 		<Menu />
 		<Content />
 		<Footer />
